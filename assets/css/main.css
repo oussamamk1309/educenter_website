@@ -1,0 +1,138 @@
+@import "https://use.fontawesome.com/releases/v5.15.4/css/all.css";
+
+@font-face { font-family: Disket Mono; src: url('./../fonts/Disket-Mono-Regular.ttf'); }
+@font-face { font-family: BLACKROCK; src: url('./../fonts/BLACKROCK.ttf'); }
+@font-face { font-family: Poppins; src: url('./../fonts/Poppins.ttf'); }
+
+/*
+ * COLORS: 1=> #1A4BA6 | 2=> #EE1B24 | 3=> #000000
+ *
+ *
+*/
+
+/*----------------------*/
+.header .head {
+    background-image: url('./../images/cover_01.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header .content {
+    background: linear-gradient(#000000, #00000000, #00000000, #0000008a);
+}
+.header .links a {
+    width: max-content;
+    text-decoration: none;
+    font-family: Disket Mono;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    transition: all 0.4s ease-in-out;
+}
+.header .links a:hover {
+    color: #a0a0a0;
+    text-decoration: none;
+}
+.header .links a span{
+    color: #000000;
+}
+.header .links .link-soc a {
+    font-size: 18px;
+}
+.header .intro h3 {
+    color: #1A4BA6;
+    font-family: BLACKROCK;
+    width: 75%;
+    font-size: 26px;
+}
+.header .intro h3 span.name {
+    font-size: 28px;
+    font-family: Disket Mono;
+    color: #EE1B24;
+}
+@media screen and (max-width: 991px){
+    #educ_logo_0 {
+        width: 150px;
+    }
+}
+@media screen and (min-width: 992px){
+    #educ_logo_0 {
+        width: 75%;
+    }
+}
+.header .menu {
+    background-color: #EE1B24;
+}
+.header .menu img {
+    display: inline-block;
+    max-width: 60px;
+}
+.header .menu .list-menu {
+    display: inline-block;
+    height: 100%;
+}
+.header .menu a {
+    font-size: 14px;
+    font-family: Poppins;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+.header .menu a:hover {
+    cursor: pointer;
+    color: #000000;
+}
+.header .under-menu {
+    width: 150px;
+    position: absolute;
+    top: 15px;
+}
+.header .cont-menu  {
+    position: relative;
+}
+.header .cont-menu-1:hover .under-menu-1, .header .under-menu-1:hover {
+    display: block;
+    transition: all 1s ease-in-out;
+}
+.header .under-menu {
+    display: none;
+    transition: all 1s ease-in-out;
+}
+.header .under-menu a {
+    color: #EE1B24;
+}
+.header .under-menu a:hover {
+    cursor: pointer;
+}
+/*----------------------*/
+footer {
+}
+footer .top-foot {
+    background: linear-gradient(#ee1b25be, #ee1b25d0, #ee1b25e3);
+}
+footer .top-foot #local_maps {
+    width: 100%;
+    max-width: 310px;
+    height: 225px;
+    border: 0;
+}
+footer .top-foot .educ-intro-foot {
+    text-align: justify;
+    font-family: Poppins;
+}
+footer .top-foot .educ-intro-foot span {
+    color: #1A4BA6;
+    font-family: Disket Mono;
+}
+footer .foot-bar {
+    background: linear-gradient(#ee1b25e3, #EE1B24);
+}
+footer .foot-bar a {
+    font-family: Disket Mono;
+    text-decoration: none;
+}
+footer .foot-bar a span {
+    font-weight: bold;
+    color: #1A4BA6;
+}
+/*----------------------*/
