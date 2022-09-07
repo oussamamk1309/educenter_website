@@ -58,3 +58,25 @@ section p.desc {
     color: #7a7a7a;
 }
 /*------------------------------*/
+.section-2-1 h1.tarif-tit {
+    color: #1A4BA6;
+}
+.section-2-1 p {
+    
+}
+.section-2-1 ul.list-2-modes {
+    list-style-type: decimal;
+}
+/*------------------------------*/
+.section-2-2 .content-bg {
+    background-color: #dddddd;
+}
+.section-2-2 .content-bg h3 {
+    color: #1a376e;
+    font-weight: bold;
+}
+/*------------------------------*/
+
+/*------------------------------*/
+
+/*------------------------------*/
